@@ -35,7 +35,7 @@ export class SignalTrigger implements INodeType {
 		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
-				name: 'signal',
+				name: 'signalApi',
 				required: false,
 			},
 		],

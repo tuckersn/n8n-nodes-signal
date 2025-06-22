@@ -4,9 +4,9 @@ import {
 	INodeProperties,
 } from 'n8n-workflow';
 
-export class Signal implements ICredentialType {
-	name = 'signalCredentials';
-	displayName = 'Signal Credentials';
+export class SignalApi implements ICredentialType {
+	name = 'signalApi';
+	displayName = 'Signal API';
 
 	documentationUrl = 'https://your-docs-url';
 

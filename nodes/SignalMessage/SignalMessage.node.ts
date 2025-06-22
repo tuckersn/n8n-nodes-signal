@@ -5,7 +5,7 @@ import { IExecuteFunctions, INodeExecutionData, INodeType, INodeTypeDescription,
 export class SignalMessage implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Signal',
-		name: 'signal',
+		name: 'signalMessage',
 		icon: 'file:signal.svg',
 		group: ['transform'],
 		version: [1, 1.1],
@@ -18,7 +18,7 @@ export class SignalMessage implements INodeType {
 		outputs: [NodeConnectionType.Main],
 		credentials: [
 			{
-				name: 'signalCredentials',
+				name: 'signalApi',
 				required: true,
 				testedBy: 'signalConnectionTest',
 			},
