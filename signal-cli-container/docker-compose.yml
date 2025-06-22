@@ -1,0 +1,17 @@
+
+services:
+  signal-cli:
+    build: .
+    container_name: signal-cli
+    ports:
+      - "8080:8080"
+    volumes:
+      - signal-cli-data:/root
+    environment:
+      - PHONE_NUMBER=+10000000000
+    stdin_open: true
+    tty: true
+
+volumes:
+  signal-cli-data:
+    driver: local
