@@ -18,7 +18,7 @@ export class SignalTrigger implements INodeType {
 		description: 'Listens to Signal messages via Server-Sent Events',
 		eventTriggerDescription: '',
 		defaults: {
-			name: 'Signal Trigger',
+			name: 'On Signal event',
 		},
 		triggerPanel: {
 			header: '',
