@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-signal-cli",
+  "name": "n8n-nodes-signal",
   "version": "0.1.0",
   "description": "N8N Community Node Package for Signal CLI",
   "keywords": [
